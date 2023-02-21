@@ -15,8 +15,8 @@ function App() {
   const location = useLocation();
   const [access, setAccess] = useState(false);
 
-  const username = "her@mail.com";
-  const password = "her1234";
+  const username = "";
+  const password = "";
 
   function login(userData) {
     if (userData.password === password && userData.username === username) {
