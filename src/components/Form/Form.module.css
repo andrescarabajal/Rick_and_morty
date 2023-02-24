@@ -1,0 +1,30 @@
+
+.buttonentrar{
+    background: rgb(30, 144, 232);
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 100px;
+
+    animation : shaking 2s infinite;
+}
+@keyframes shaking {
+    10% {
+        transform: scale(1.05) rotate(5deg);
+    }
+      20% { 
+        transform: scale(1.05) rotate(-5deg);
+    }
+
+    30% { 
+        transform: scale(1.05) rotate(5deg);
+    
+    }
+    40% {
+        transform: none;
+    }
+}

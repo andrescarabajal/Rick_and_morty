@@ -1,6 +1,8 @@
 import React from "react";
 //import { useFormAction } from "react-router-dom";
 import { validate } from "./validation";
+import styles from "./Form.module.css"
+
 
 export default function Form({ login }) {
   const [userData, setUserData] = React.useState({
@@ -22,6 +24,7 @@ export default function Form({ login }) {
 
   return (
     <div>
+       <div className={styles.container}></div>
       <form onSubmit={handleSubmit}>
         <label htmlFor="username">Username:</label>
         <input
@@ -39,7 +42,12 @@ export default function Form({ login }) {
           value={userData.password}
         />
         <p>{errors.password}</p>
-        <button type="submit">ENTRAR</button>
+      
+        <button  type="submit" className={styles.buttonentrar}>
+          ENTRAR
+          </button>
+      
+        
       </form>
     </div>
   );

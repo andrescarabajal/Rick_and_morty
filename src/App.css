@@ -1,4 +1,15 @@
 .App {
   text-align: center;
-  background-color: rgb(163, 163, 163);
+  background-color: rgb(20, 188, 255);
+}
+
+.body {
+
+margin: 0;
+background: #00a5be;
+font-family: system-ui;
+overflow-x: hidden;
+background-image: none;
+background-position: left 200px top;
+background-repeat: no-repeat;
 }

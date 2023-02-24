@@ -1,6 +1,18 @@
 .container{
     display: flex;
     justify-content: space-around;
-    background-color: "#000000";
+    background-color: rgba(20, 188, 255, 0.584);
     padding: "25px"
+}
+
+.buttonagregar{
+    background: #3dcf19;
+    cursor: pointer;
+    border: none;
+    padding: 4px 10px;
+    color: hsl(0, 0%, 0%);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 100px; 
 }
